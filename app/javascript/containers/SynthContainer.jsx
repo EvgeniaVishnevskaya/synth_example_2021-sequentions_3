@@ -1,6 +1,6 @@
 import * as Tone from 'tone'
 // import * as melodySynth from '../tunes/melody_synth'
-// import * as bassSynth from '../tunes/bass_synth'
+import * as bassSynth from '../tunes/bass_synth'
 // import * as spaceSynth from '../tunes/space_synth'
 // import * as allEffectsSynth from '../tunes/all_effects_synth'
 import * as drumSampler from '../tunes/drum_sampler'
