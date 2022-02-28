@@ -1,7 +1,7 @@
 .Slider {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
   h3 {
@@ -15,20 +15,19 @@
   }
 
   input[type='range']::-webkit-slider-runnable-track {
-    height: 8px;
-    background: var(--dark-grey);
+    height: 4px;
+    background: var(--white);
     border: none;
-    border-radius: 10pt;
   }
 
   input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
-    height: 26px;
-    width: 26px;
-    border-radius: 32px;
-    background: var(--white);
-    margin-top: -8px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: var(--dark-green);
+    margin-top: -6px;
     cursor: pointer;
   }
 
@@ -37,7 +36,6 @@
   }
 
   input[type='range']:focus::-webkit-slider-runnable-track {
-    background: var(--green);
-    transition-duration: 0.2s;
+    background: var(--white);
   }
 }
